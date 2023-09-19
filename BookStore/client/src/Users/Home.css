@@ -1,0 +1,25 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 3rem;
+  }
+  
+  .card {
+    width: 18rem;
+    transition: transform 0.3s;
+    
+  }
+
+  .card:hover{
+    /* transform: rotate(30deg); */
+    transform: scale(1.1);
+    /* background-color: rgb(240, 164, 173); */
+    /* background-image: radial-gradient(yellow,blue,black); */
+    background-image: linear-gradient(pink,black);
+    
+  }
+
+
+  

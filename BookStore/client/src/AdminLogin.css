@@ -1,0 +1,114 @@
+/* AdminLogin.css */
+
+.form-container {
+    max-width: 100%;
+    height: 650px;
+    /* margin: 100px; */
+    padding-left: 32rem;
+    padding-top: 6rem;
+    border: 5px solid #ccc;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-image: url('https://images.unsplash.com/photo-1508060793788-7d5f1c40c4ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGUlMjBib29rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* background-color: rgb(47, 43, 43); */
+    
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    border: 3px solid #ccc;
+    border-radius: 4px;
+    padding: 0.5rem;
+  }
+  
+  .checkbox-label {
+    font-weight: normal;
+    margin-left: 0.5rem;
+  }
+  
+  .submit-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .submit-button:hover {
+    background-color: #0069d9;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .fade-in-animation {
+    animation: fade-in 1s ease-in-out;
+  }
+  
+  .errMsg{
+    color: red;
+    font-weight: bold;
+  }
+
+  /* body{
+    background-image: url('https://images.unsplash.com/photo-1508060793788-7d5f1c40c4ba?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Njh8fGUlMjBib29rfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  } */
+
+
+
+
+
+
+  /* ModalStyles.css */
+
+/* Center the modal content */
+.modal-content {
+  text-align: center;
+}
+
+/* Style the modal title */
+.modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the modal body */
+.modal-body {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+/* Style the modal footer */
+.modal-footer {
+  justify-content: center;
+}
+
+/* Style the close button */
+.modal-footer button {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}

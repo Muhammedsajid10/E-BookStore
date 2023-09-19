@@ -1,0 +1,68 @@
+
+   .container-nav {
+    background-image: url('https://images.pexels.com/photos/694740/pexels-photo-694740.jpeg?auto=compress&cs=tinysrgb&w=900');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 707px; /* Adjust the height as needed */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    /* overflow: hidden; */
+    /* transition: transform 0.3s ease-in-out; */
+  }
+  
+  /* .container-nav:hover {
+    transform: scale(1.05); 
+  } */
+  
+  .headingNav {
+    font-size: 3rem;
+    color: white;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); */
+    /* transition: text-shadow 0.3s ease-in-out; */
+    transition: transform 0.3s ease-in-out;
+    margin-right: 790px;
+    margin-bottom: 100px;
+    max-width: 100px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .container-nav:hover .headingNav {
+    /* text-shadow: 4px 4px 8px rgba(84, 63, 63, 0.8); */
+    transform: scale(2,2);
+  }
+  
+.navb{
+  /* background-color: white; */
+  color: black;
+}
+.dropdown-item-custom {
+  color: black !important;
+}
+
+.NavLinkDiv{
+  background-color:white;
+  display: flex;
+  border-radius: 15px;
+  align-items: center;
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.admin,
+.user {
+  color: black; 
+  margin: 0 10px;
+  transition: color 0.7s ease-in-out; 
+}
+
+.admin:hover,
+.user:hover {
+ font-size: 30px;
+ 
+}
+
+
+

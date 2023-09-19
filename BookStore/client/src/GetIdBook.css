@@ -1,0 +1,22 @@
+.container-book {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(204, 204, 219);
+}
+
+.heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.book-detail {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Add more styles as needed */

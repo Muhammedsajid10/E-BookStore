@@ -1,0 +1,83 @@
+/* Books.css */
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .table-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-container th,
+  .table-container td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-container th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  /* .table-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+   */
+  .delete-icon,
+  .view-icon,
+  .update-icon {
+    cursor: pointer;
+    font-size: 20px;
+    margin-right: 10px;
+    color: #007bff;
+    opacity: 0.7;
+    transition: color 0.2s, transform 0.2s;
+  }
+  
+  .delete-icon:hover,
+  .view-icon:hover,
+  .update-icon:hover {
+    color: #0056b3;
+    opacity: 1;
+    transform: scale(1.2); 
+  }
+  
+
+  /* SERCH BAR */
+.search-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.search-bar input {
+  flex: 1;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background-color: #0056b3;
+}
+
+
+/* 
+.container-books{
+  background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGUlMjBib29rJTIwdGhlbWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+} */

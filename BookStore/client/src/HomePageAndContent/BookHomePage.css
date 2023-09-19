@@ -1,0 +1,13 @@
+.books-homePage{
+    display: flex;
+    background-image: url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGUlMjBib29rJTIwdGhlbWV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60');
+    /* background-image: url('https://images.unsplash.com/photo-1528700850553-6a45e6f143db?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzAxfHxlJTIwYm9vayUyMGRhcmslMjB0aGVtZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.books-homepage-content{
+    margin: 60px auto 0 auto;
+}
+
+

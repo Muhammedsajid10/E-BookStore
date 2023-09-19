@@ -1,0 +1,9 @@
+.cartHome{
+    display: flex;
+}
+.cartSide{
+    margin-left: 400px;
+}
+.cartTotalSide{
+    margin-left: 300px;
+}
